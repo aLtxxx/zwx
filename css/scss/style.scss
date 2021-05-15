@@ -1,0 +1,54 @@
+// Файл обнуляющих стилей
+@import url(/css/nullstyle.css);
+
+body {
+	color: #fff;
+	box-sizing: border-box;
+}
+.header {
+	height: 100%;
+	width: 100%;
+	min-height: 100vh;
+	max-height: 1920px;
+	min-width: 1080px;
+}
+.container {
+	height: 100%;
+	width: 100%;
+	min-height: 100vh;
+	max-height: 1920px;
+	min-width: 1080px;
+}
+.content {
+	padding-top: 3px;
+	background: black;
+	height: 100%;
+	width: 100%;
+	height: 60px;
+	max-height: 100px;
+}
+
+.content_nav {
+	font-family: "Poppins", sans-serif;
+	font-weight: 500;
+	display: flex;
+	-webkit-box-pack: justify;
+	
+	align-items: center;
+	position: relative;
+	font-size: 28px;
+}
+a {
+	&:hover {
+		border-bottom: 1px solid yellow;
+		transform: scaleX(1);
+		transition: 0.5s;
+	}
+	&::before {
+		transition: .5s;
+		transform: scaleX(0);
+	}
+	margin-left: 80px;
+	padding-top: 15px;
+	color: #fff;
+}

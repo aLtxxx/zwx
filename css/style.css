@@ -1,0 +1,60 @@
+@import url(/css/nullstyle.css);
+body {
+  color: #fff;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
+.header {
+  height: 100%;
+  width: 100%;
+  min-height: 100vh;
+  max-height: 1920px;
+  min-width: 1080px; }
+
+.container {
+  height: 100%;
+  width: 100%;
+  min-height: 100vh;
+  max-height: 1920px;
+  min-width: 1080px; }
+
+.content {
+  padding-top: 3px;
+  background: black;
+  height: 100%;
+  width: 100%;
+  height: 60px;
+  max-height: 100px; }
+
+.content_nav {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  position: relative;
+  font-size: 28px; }
+
+a {
+  margin-left: 80px;
+  padding-top: 15px;
+  color: #fff; }
+  a:hover {
+    border-bottom: 1px solid yellow;
+    -webkit-transform: scaleX(1);
+    -ms-transform: scaleX(1);
+    transform: scaleX(1);
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s; }
+  a::before {
+    -webkit-transition: .5s;
+    -o-transition: .5s;
+    transition: .5s;
+    -webkit-transform: scaleX(0);
+    -ms-transform: scaleX(0);
+    transform: scaleX(0); }
